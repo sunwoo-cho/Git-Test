@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="EUC-KR">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <style>
+      .nav {
+        height: 70px;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+      }
+
+      .nav-right-items {
+        display: flex;
+        margin-left: auto;
+      }
+
+      .nav-item {
+        margin-left: 10px;
+      }
+
+      .company-name {
+        margin-left: 20px;
+      }
+
+      .title {
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+      }
+
+      .subtitle {
+        padding-left: 250px;
+        width: 300px;
+        height: 40px;
+        border-radius: 5px;
+        margin-top: 30px;
+      }
+
+      .subtitle > form > input {
+        whidth: 280px;
+        height: 40px;
+        margin: 1px;
+        line-height: 24px;
+        font-size: 18px;
+        font-weight: 500;
+        padding-left: 10px;
+      }
+
+      .main {
+        width: 800px;
+        margin: 0 auto;
+        margin-top: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+      <div class="company-name">
+        Webiz
+      </div>
+      <div class="nav-right-items">
+        <div class="nav-item">로그인</div>
+        <div class="nav-item">회원가입</div>
+      </div>
+    </div>
+    <div class="main">
+      <div class="title">
+        보이스웹컨트롤러
+      </div>
+      <div class="subtitle">
+        <form>
+          <input type="search" placeholder="검색어를 입력하세요">
+          <button>검색</button>
+        </form>
+        </input>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
